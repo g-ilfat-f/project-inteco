@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 120px;
+    background-color: burlywood;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.header__logo {
+    margin-top: 40px;
+}
+
+.header__item {
+    list-style: none;
+}
+
+.header__pin {
+    margin-top: 50px;
+}
